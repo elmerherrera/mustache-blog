@@ -1,0 +1,20 @@
+<h1>Blog</h1>
+
+<form action="/blog" method="POST">
+  <div class="form-group">
+    <label for="textContent">New Post:</label>
+    <textarea class="form-control" id="textContent" name="textContent" rows="3" required></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+{{#each posts}}
+  <div class="card my-3 bg-secondary">
+    <div class="card-header">
+      Posted by {{userName}} on {{date}} at {{time}}
+    </div>
+    <div class="card-body">
+      <p class="card-text">{{textContent}}</p>
+    </div>
+  </div>
+{{/each}}

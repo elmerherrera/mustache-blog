@@ -22,6 +22,7 @@ const sess = {
   };
   
   app.use(session(sess));
+  app.use('/css', express.static(path.join(__dirname, 'node_modules/bootstrap/dist/css')));
 
 
 app.engine( 'handlebars', exphbs({

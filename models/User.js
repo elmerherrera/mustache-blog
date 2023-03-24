@@ -39,6 +39,7 @@ User.init(
   {
     hooks: {
       beforeCreate: async (newUserData) => {
+        console.log('hashing password...');
         newUserData.password = await bcrypt.hash(newUserData.password, 10);
         return newUserData;
       },
@@ -48,6 +49,7 @@ User.init(
     freezeTableName: true,
     underscored: true,
     modelName: 'user',
+    hooks: true,
   }
 );
 
