@@ -10,19 +10,19 @@ const userData = [
       password: 'admin'
     },
     {
-      name: 'Jade Jadeson',
-      email: 'frostedflakes64@hotmail.com',
-      password: 'wordpass'
+      name: 'Daffy Duck',
+      email: 'succatash@aol.com',
+      password: '1234'
     },
     {
-      name: 'Bob Johnson',
-      email: 'bjohnson@example.com',
-      password: 'p@ssw0rd'
+      name: 'Bob Ross',
+      email: 'littlemistakes@gmail.com',
+      password: '4321'
     },
     {
-     name: 'Names Jameson',
-     email: 'NamestheJames@Jamenames.com',
-     password: 'trueAdmin'
+     name: 'Obi Wan',
+     email: 'theforce@hotmail.com',
+     password: 'numbers'
     }
   ];
   
